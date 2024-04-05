@@ -41,7 +41,7 @@ npx react-native run-android
     Here connection for DB is created and table is created if it does not exists and also background service is started if data does not exists in table.
 </p>
 
-<img src="assets/screenshots/splash.png" alt="Flight Request" style="height:450px; width:200px;"/>
+<img src="assets/screenshots/splash.png" alt="Splash" style="height:450px; width:200px;"/>
 
 
 
@@ -51,7 +51,7 @@ npx react-native run-android
     Here news are fetched from DB and showed in list form, interval is set to fetch new news items every 10 secs or if manually refresh triggered by user.
 </p>
 
-<img src="assets/screenshots/list.png" alt="Select Airport" style="height:450px; width:200px;"/>
+<img src="assets/screenshots/list.png" alt="News List" style="height:450px; width:200px;"/>
 
 
 ## Flow
@@ -66,7 +66,3 @@ npx react-native run-android
   - if data exists then initial items are fetched from DB and an interval is also created which fetches new items from DB after every 10 secs.
   - if any user manually triggers the refresh then the interval resets again to 10 secs and after the new data is fetched from DB.
   - if during fetching from DB the threshold limit is crossed then the background task would be triggered and news api would be called and the response would be stored in the DB.
-
-<video width="450" height="200" controls>
-  <source src="assets/screenRecording/screenRecording.mp4" type="video/mp4">
-</video>

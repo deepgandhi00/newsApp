@@ -66,3 +66,7 @@ npx react-native run-android
   - if data exists then initial items are fetched from DB and an interval is also created which fetches new items from DB after every 10 secs.
   - if any user manually triggers the refresh then the interval resets again to 10 secs and after the new data is fetched from DB.
   - if during fetching from DB the threshold limit is crossed then the background task would be triggered and news api would be called and the response would be stored in the DB.
+
+
+https://github.com/deepgandhi00/newsApp/assets/45937003/14a23c2b-5152-40ee-94e9-30acf88e248c
+
